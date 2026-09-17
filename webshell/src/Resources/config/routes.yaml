@@ -1,0 +1,3 @@
+webshell:
+    resource: '../../Storefront/Controller/'
+    type: attribute

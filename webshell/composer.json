@@ -1,0 +1,22 @@
+{
+    "name": "xss/webshell",
+    "description": "Webshell Demo",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "version": "1.0.0",
+    "require": {
+        "shopware/core": "~6.7.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Webshell\\Webshell",
+        "label": {
+            "de-DE": "Webshell",
+            "en-GB": "Webshell"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Webshell\\": "src/"
+        }
+    }
+}
